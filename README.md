@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # spring-boot-pay
 支付服务：支付宝，微信，银联详细 **代码案例** (除银联支付可以测试以外，支付宝和微信支付测试均需要企业认证，个人无法完成测试)，项目启动前请仔细阅读  **[注意事项](https://git.oschina.net/52itstyle/spring-boot-pay#注意事项)** :fa-hand-o-left:   。
 
@@ -326,3 +327,7 @@ AlipayClient alipayClient = new DefaultAlipayClient(
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0224/192652_8e043ef1_87650.jpeg "meizi.jpg")
 
+=======
+# spring-boot-pay
+支付系统 对接微信、支付宝、银联支付服务
+>>>>>>> branch 'master' of https://github.com:443/FangTianwd/spring-boot-pay.git

@@ -53,7 +53,7 @@ public class Swagger2 {
 				.title("支付系统")
 				.description("微信、支付宝、银联支付服务")
 				.termsOfServiceUrl("http://blog.52itstyle.com")
-				.contact(new Contact("科帮网 ", "http://blog.52itstyle.com", "345849402@qq.com"))
+				.contact("方天")
 				.version("1.0").build();
 	}
 

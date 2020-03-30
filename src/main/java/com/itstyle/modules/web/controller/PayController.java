@@ -36,6 +36,7 @@ public class PayController {
 	@ApiOperation(value="后台展示")
 	@RequestMapping(value="main",method=RequestMethod.GET)
 	public String main(HttpServletRequest request, HttpServletResponse response,Model model) throws Exception {
+		logger.info("后台展示跳转");
 		model.addAttribute("ip", "192.168.1.66");
 		model.addAttribute("address", "青岛");
 		model.addAttribute("time", DateUtil.getTime());
